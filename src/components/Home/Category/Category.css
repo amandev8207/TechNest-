@@ -1,0 +1,21 @@
+:root{
+    --dark-color:#3074f0;
+    --primary-color:#f7c9d2;
+    --light-color:#F5F5F5;
+    --success-color:#8f9295;
+}
+
+.home_category{
+    border: 2px solid #e8e8e8;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+.home_category:hover{
+    transition: 0.3s ease-in-out;
+    color: #000;
+    border: 2px solid var(--dark-color);
+    transform: scale(1.05);
+    box-shadow: 1px 6px 10px -1px rgb(116, 116, 116);
+}
